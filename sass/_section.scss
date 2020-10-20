@@ -1,0 +1,32 @@
+section {
+  @include centerAll();
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  padding-top: 48px;
+}
+
+#view1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: lightgray;
+  color: #000;
+
+  div {
+    @include centerAll();
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+  }
+}
+
+#view2 {
+  @include centerAll();
+  display: none;
+  background-color: darkblue;
+  color: #fff;
+}

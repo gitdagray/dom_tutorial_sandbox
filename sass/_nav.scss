@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100vw;
+  height: 48px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid $navbar-color;
+  z-index: 2;
+  background-color: $navbar-bgcolor;
+  color: $navbar-color;
+}
